@@ -131,3 +131,19 @@ except requests.exceptions.RequestException as e:
 except json.JSONDecodeError:
     print(f"Error al decodificar la respuesta JSON. Respuesta del servidor: {response.text}")
 
+Ejemplo de respuesta:
+{
+ "predictions":[
+  {
+   "confidence":0.8452075744106448,
+   "original_text":"The new budget plan sparks debate in Congress",
+   "predicted_category":"politics & religion"
+  },
+  {"confidence":0.9805068901573827,
+   "original_text":"Latest fashion trends for the summer season",
+   "predicted_category":"style"},
+  {"confidence":0.8082523062385426,
+   "original_text":"Tips for a healthy lifestyle and wellbeing",
+   "predicted_category":"wellness"}
+ ]
+}
