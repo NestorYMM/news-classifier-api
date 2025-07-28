@@ -31,9 +31,6 @@ Sigue estos pasos para poner en marcha la API en tu máquina local:
 ### 1. Clonar el Repositorio
 :
 
-```bash
-git clone [URL_DE_TU_REPOSITORIO_GITHUB]
-cd [nombre-del-directorio-de-tu-repositorio] # Por ejemplo: cd api_clasificador_noticias
 
 ### 2. Crear y Activar un Entorno Virtual
 python -m venv n_ambiente
