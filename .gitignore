@@ -1,0 +1,14 @@
+#Carpetas de ambiete
+ambiente/
+
+# Archivos de caché y compilación de Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+#Sensibles
+.vscode/
+*.log
+logs/
